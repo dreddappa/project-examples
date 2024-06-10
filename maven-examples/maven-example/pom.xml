@@ -28,7 +28,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>reddappag-artifactory-releases</name>
+        <url>http://support-team-reddappag-artifactory.jfrog.farm:8081/artifactory/demo-libs-release</url>
+    </repository>
+</distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
